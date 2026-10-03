@@ -1,0 +1,25 @@
+# 只保存源码和构建资源，不保存运行数据或部署凭据。
+.git/
+.gradle/
+**/build/
+**/target/
+node_modules/
+run/
+logs/
+__pycache__/
+.idea/
+.env
+.env.*
+local.properties
+*.log
+*.class
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+*.hprof
+*.key
+*.pem
+*.mca
+hs_err_*
+replay_pid*
